@@ -13,6 +13,26 @@
     margin-top: 56px;
     flex: 1;
   }
-  .contents {
+  .contents1 {
+    margin-left: 240px;
     flex: 1;
+  }
+  .contents2 {
+    margin-left: 240px;
+    flex: 1;
+    transform: translateX(-240px);
+  }
+  .pad {
+    width: 0px;
+    height: 0px;
+    display: none;
+  }
+  @media screen and (max-width: 911px) {
+    .contents1 {
+      margin-left: 72px;
+    }
+    .contents2 {
+      margin-left: 72px;
+      transform: translateX(-72px);
+    }
   }
