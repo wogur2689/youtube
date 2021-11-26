@@ -5,7 +5,7 @@ import HomeFilter from '../components/home/HomeFilter';
 import HomeCard from '../components/home/HomeCard';
 import { useState } from 'react';
 
-const target = ['전체', 'BTS', 'LISA', '아이폰'];
+const target = ['전체', 'Music', 'Entertainment', 'Comedy'];
 
 function Home() {
   const [filter, setFilter] = useState('전체');
@@ -24,7 +24,7 @@ function Home() {
   }
 
   function filterFunc(data) {
-    if (filter === '전체' || data.title.includes(filter)) return true;
+    if (filter === '전체' || data.category === filter) return true;
     return false;
   }
   return (
