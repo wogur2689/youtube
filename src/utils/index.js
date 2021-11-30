@@ -1,3 +1,5 @@
+import moment from 'moment';
+
 function ProcessViewCount(viewCount) {
     if (viewCount < 1000) {
       return `조회수 ${viewCount}회`; // 조회수 100회
@@ -10,6 +12,13 @@ function ProcessViewCount(viewCount) {
     } else {
       return `조회수 ${(viewCount / 100000000).toFixed(0)}억회`; // 조회수 3억회
     }
-  }
-  
-  export { ProcessViewCount };
+}
+
+function ProcessUploadDate() {
+  const date = moment('2021-09-15T13:15:02');
+  const standard = moment('2021-09-16T13:15:02');
+  const elapsed = date.from(standard);
+  return elapsed;
+}
+
+  export { ProcessViewCount, ProcessUploadDate };
