@@ -1,7 +1,6 @@
 // HorizontalCard 컴포넌트
 import styles from './HorizontalCard.module.css';
-import moment from 'moment';
-import { ProcessViewCount } from '../../utils';
+import { ProcessViewCount, ProcessUploadDate } from '../../utils';
 
 function HorizontalCard({ data }) {
   return (
@@ -22,7 +21,7 @@ function HorizontalCard({ data }) {
               {data.channelTitle}
             </a>
             <div className={styles.view}>{ProcessViewCount(data.viewCount)}</div>
-            <div className={styles.time}>{moment(data.date).fromNow()}</div>
+            <div className={styles.time}>{ProcessUploadDate()}</div>
           </div>
           <div className={styles.desc}>{data.description}</div>
         </div>
