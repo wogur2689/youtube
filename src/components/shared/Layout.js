@@ -4,18 +4,18 @@ import Menu from './Menu';
 import React, {useState} from 'react';
 
 function Layout({ children, activeMenu }) {
-  const [value, setValue] = useState(false);
+  const [open, setOpen] = useState(true);
 
-    function onClick() {
-      setValue(!value);
-    }
+  function onChangeOpen() {
+    setOpen(!open);
+  }
 
   return (
     <div className={styles.container}>
-      <Header fold={onClick}/>
+      <Header onChangeOpen={onChangeOpen} />
       <div className={styles.layout}>
-          {value === true ? <div><Menu activeMenu={activeMenu} /> <div className={styles.contents1}>{children}</div></div>
-          : <div><div className={styles.pad}/> <div className={styles.contents2}>{children}</div></div>}
+        <Menu activeMenu={activeMenu} open={open} />
+        <div className={styles.contents}>{children}</div>
       </div>
     </div>
   );
