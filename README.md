@@ -1,3 +1,4 @@
 # 유튜브 클론코딩
 
-사용언어 React.JS
+Skil : React.js
+Library : react-router-dom, moment,js, gh-pages, react-icons, yarn
