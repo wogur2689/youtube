@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/youtube/static/css/main.4184197f.chunk.css",
-    "main.js": "/youtube/static/js/main.8c3314a7.chunk.js",
-    "main.js.map": "/youtube/static/js/main.8c3314a7.chunk.js.map",
+    "main.css": "/youtube/static/css/main.b30a1a88.chunk.css",
+    "main.js": "/youtube/static/js/main.0a7254ed.chunk.js",
+    "main.js.map": "/youtube/static/js/main.0a7254ed.chunk.js.map",
     "runtime-main.js": "/youtube/static/js/runtime-main.6f76567c.js",
     "runtime-main.js.map": "/youtube/static/js/runtime-main.6f76567c.js.map",
-    "static/js/2.d32527a3.chunk.js": "/youtube/static/js/2.d32527a3.chunk.js",
-    "static/js/2.d32527a3.chunk.js.map": "/youtube/static/js/2.d32527a3.chunk.js.map",
+    "static/js/2.8b2c8e98.chunk.js": "/youtube/static/js/2.8b2c8e98.chunk.js",
+    "static/js/2.8b2c8e98.chunk.js.map": "/youtube/static/js/2.8b2c8e98.chunk.js.map",
     "index.html": "/youtube/index.html",
-    "static/css/main.4184197f.chunk.css.map": "/youtube/static/css/main.4184197f.chunk.css.map",
-    "static/js/2.d32527a3.chunk.js.LICENSE.txt": "/youtube/static/js/2.d32527a3.chunk.js.LICENSE.txt"
+    "static/css/main.b30a1a88.chunk.css.map": "/youtube/static/css/main.b30a1a88.chunk.css.map",
+    "static/js/2.8b2c8e98.chunk.js.LICENSE.txt": "/youtube/static/js/2.8b2c8e98.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6f76567c.js",
-    "static/js/2.d32527a3.chunk.js",
-    "static/css/main.4184197f.chunk.css",
-    "static/js/main.8c3314a7.chunk.js"
+    "static/js/2.8b2c8e98.chunk.js",
+    "static/css/main.b30a1a88.chunk.css",
+    "static/js/main.0a7254ed.chunk.js"
   ]
 }
