@@ -9,7 +9,7 @@ function Menu({ activeMenu, open }) {
     return (
       <div className={styles.menu}>
         <Link
-          to="/"
+          to="/youtube"
           className={activeMenu === 'home' ? styles.focused : styles.link}
         >
           <TiHome className={styles.icon} />
